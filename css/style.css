@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar style */
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    z-index: 11 !important;
+}
+
+nav ul {
+    display: flex;
+}
+
+.main-navbar a {
+    padding: 5px 10px;
+    color: white;
+}
+
+.main-navbar a:hover {
+    border-bottom: 2px #bd2f2f solid;
+}
+
+.logo {
+    padding: 10px 5px;
+    font-size: 25px;
+}
+
+/* main case style */
+
+.main-case {
+    background: url(/img/company-people.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.main-case h2 {
+    font-size: 55px;
+    border-bottom: 4px #bd2f2f solid;
+}
+
+.main-case p {
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-left: 2px #bd2f2f solid;
+    border-right: 2px #bd2f2f solid;
+}
+
+.main-case .btn {
+    margin-top: 22px;
+}
+
+.main-case::before {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: gray;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.body * {
+    z-index: 10;
+}
+
+/* about logo style */
+
+.about-logo .logo-container {
+    display: flex;
+    text-align: center;
+    /* height: 200px; */
+}
+
+.logo-items {
+    padding: 30px;
+    line-height: 1.6em;
+    height: 250px;
+}
+
+.logo-items h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.logo-items p {
+    margin-top: 25px;
+}
+
+.logo-items i{
+    /* display: inline-block; */
+    margin-bottom: 10px;
+}
+
+.about-icon {
+    display: inline-block;
+    background-color: #bd2f2f;
+    padding: 15px 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* about complet style */
+.about-complet-container {
+    display: flex;
+}
+
+.about-image img{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.about-text {
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: wrap column;
+    background-color: #bd2f2f;
+    color: white;
+}
+
+.about-text h2, .about-text p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.about-text h2 {
+    margin-top: 40px;
+}
+
+.about-text p {
+    margin-top: 50px;
+}
+
+.about-text a {
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+

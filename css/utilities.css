@@ -1,0 +1,131 @@
+.primary-color {
+    color: #bd2f2f;
+}
+
+/* btn */
+.btn {
+    background-color: #bd2f2f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    z-index: 10;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-light {
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    z-index: 10;
+}
+
+/* logo style */
+.gg-qr {
+    transform: scale(var(--ggs,1))
+}
+.gg-qr,
+.gg-qr::after {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 19.5px;
+    height: 19.5px;
+    box-shadow:
+        -6px -6px 0 -4px,
+        6px 6px 0 -4px,
+        6px -6px 0 -4px,
+        -6px 6px 0 -4px
+}
+.gg-qr::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: currentColor;
+    box-shadow:
+        0 6px 0,
+        6px 6px 0,
+        6px 0 0;
+    top: 4px;
+    left: 4px
+}
+
+
+/* camera logo */
+.gg-camera {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 3px;
+    width: 18px;
+    height: 12px;
+    perspective: 24px
+}
+.gg-camera::after,
+.gg-camera::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-camera::before {
+    border: 2px solid;
+    border-left-color: transparent;
+    transform: rotateY(-70deg);
+    width: 8px;
+    height: 8px;
+    right: -7px;
+    top: 0
+}
+.gg-camera::after {
+    width: 10px;
+    height: 5px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: -5px;
+    right: 2px;
+    border-top-right-radius: 2px
+}
+/* bot logo */
+.gg-bot {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 21px;
+    height: 10px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 12px;
+    box-shadow:
+        0 0 0 2px,
+        -4px 0 0 -1px,
+        4px 0 0 -1px,
+        inset 0 -4px 0 -2px
+}
+.gg-bot::after,
+.gg-bot::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    box-shadow: 0 0 0 2px;
+    top: 3px
+}
+.gg-bot::before {
+    left: -4px;
+    border-radius: 3px
+}
+.gg-bot::after {
+    border-radius: 100px;
+    right: -4px
+}
