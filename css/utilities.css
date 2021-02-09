@@ -1,6 +1,17 @@
 .primary-color {
     color: #bd2f2f;
 }
+/* background color */
+
+.backgraound-primary-color {
+    background-color: #bd2f2f;
+    color: white;
+}
+
+.backgraound-secondry-color {
+    background-color: black;
+    color: white;
+}
 
 /* btn */
 .btn {
@@ -129,3 +140,75 @@
     border-radius: 100px;
     right: -4px
 }
+
+/* flex Mini FreamWork */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* column property */
+.column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* row property */
+.row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row-justify {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* width size */
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+/* fit image 
+.fit-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */

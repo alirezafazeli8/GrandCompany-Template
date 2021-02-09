@@ -105,7 +105,6 @@ nav ul {
 .about-logo .logo-container {
     display: flex;
     text-align: center;
-    /* height: 200px; */
 }
 
 .logo-items {
@@ -124,7 +123,6 @@ nav ul {
 }
 
 .logo-items i{
-    /* display: inline-block; */
     margin-bottom: 10px;
 }
 
@@ -138,41 +136,73 @@ nav ul {
 }
 
 /* about complet style */
-.about-complet-container {
-    display: flex;
-}
-
-.about-image img{
-    width: 100%;
-    display: flex;
-    flex-flow: wrap column;
-}
-
-.about-text {
-    flex-wrap: wrap;
-    display: flex;
-    flex-flow: wrap column;
-    background-color: #bd2f2f;
-    color: white;
-}
 
 .about-text h2, .about-text p {
-    padding: 20px;
+    padding: 25px;
     font-size: 20px;
-}
-
-.about-text h2 {
-    margin-top: 40px;
-}
-
-.about-text p {
-    margin-top: 50px;
 }
 
 .about-text a {
     width: 130px;
     margin-left: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* cases style */
+
+.cases-gallery .row img{
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cases-gallery .row img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cases-gallery-header {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8em;
+    height: 100px;
+}
+
+.cases-gallery-header p {
+    padding-top: 10px;
+}
+
+/* blog style */
+
+.blog {
     margin-top: 50px;
 }
 
 
+.blog-text h2, .about-text p {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.blog-text p {
+    /* width: 500px; */
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-text a {
+    width: 130px;
+    margin-left: 20px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
