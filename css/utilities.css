@@ -212,3 +212,9 @@
     height: 100%;
     object-fit: cover;
 } */
+
+/* gallery header style */
+.gallery-header h3 , .gallery-header h1, .gallery-header p  {
+    text-align: center;
+    padding: 20px;
+}
